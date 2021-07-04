@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="5" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.mobius.pagetest.HomePageTest">
+        <methods>
+          <include name="Depositsclick"/>
+          <include name="Allofferspage"/>
+          <include name="NoDepostbonuspage"/>
+          <include name="HappyHourpage"/>
+          <include name="LoyalityProgram"/>
+          <include name="howtoplayrummy"/>
+          <include name="closemethod"/>
+          <include name="flusextenreports"/>
+          <include name="Surproseofferpage"/>
+          <include name="intialisebrowser"/>
+          <include name="callextenreports"/>
+          <include name="FirstDepostbonuspage"/>
+          <include name="PowerPlayofferPage"/>
+          <include name="SecondDepostbonuspage"/>
+          <include name="InstanCashBonus"/>
+          <include name="ReferandEarn"/>
+          <include name="Clubhousepage"/>
+          <include name="abourummypage"/>
+          <include name="specialOfferspage"/>
+          <include name="withdrawlclick"/>
+        </methods>
+      </class> <!-- com.mobius.pagetest.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
